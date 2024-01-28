@@ -69,7 +69,6 @@ let generatePassword = function() {
 
     // while/if there aren't enough characters 
     while (passChars.length < characterAmount) {
-      // pick a random character from passInfo
       passChars.push(getRandomChar(passInfo));
     };
 
