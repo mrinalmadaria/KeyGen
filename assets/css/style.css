@@ -16,7 +16,8 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  /* background-color: #747264; */
+  background-image: linear-gradient(to right, #11998E, #38EF7D);
 }
 
 .wrapper {
@@ -27,27 +28,29 @@ body {
 
 /* Header Styles */
 
-header {
+.head {
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
 }
 
-header h1 {
+.head h1 {
   border-bottom: 3px solid;
-  border-color: hsl(360, 91%, 36%);
+  border-color: #5C8374;
+  color: #373331;
   padding-bottom: 10px;
   margin: 0 auto 35px auto;
   width: 30%;
-  margin-bottom: 5px;
+  font-family: 'Cute Font', sans-serif;
+  font-size: 50px;
+  /* margin-bottom: 5px; */
 }
 
 /* Card Container Styles */
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
+  background-color: #B7E5B4;
+  border-radius: 50px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
@@ -62,7 +65,7 @@ header h1 {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #B7E5B4;
   height: 2px;
 }
 
@@ -78,7 +81,7 @@ header h1 {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #B7E5B4;
   height: 2px;
 }
 
@@ -92,25 +95,26 @@ header h1 {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #6C5F5B;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
   box-shadow: 0 9px  #999;
   text-align: center;
   cursor: pointer;
+  font-family: 'Zen Dots', sans-serif;
 }
 
-.btn:hover {background-color: rgb(212, 11, 11)}
+.btn:hover {background-color: #7D7463}
 
 .btn:active {
-  background-color: rgb(87, 4, 4);
+  background-color: #373331;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -127,6 +131,7 @@ header h1 {
   appearance: none;
   border: none;
   display: block;
+  background-color: #B7E5B4;
   width: 100%;
   padding-top: 15px;
   padding-left: 15px;
@@ -136,7 +141,7 @@ header h1 {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed black;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
