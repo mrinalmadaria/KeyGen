@@ -46,6 +46,12 @@ body {
   /* margin-bottom: 5px; */
 }
 
+.head h2{
+  font-family: 'Cute Font', sans-serif;
+  font-size: 35px;
+  color: #373331;
+}
+
 /* Card Container Styles */
 
 .card {
